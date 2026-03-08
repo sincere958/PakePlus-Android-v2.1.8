@@ -313,8 +313,8 @@
                     showStatus('✅ 已复制第二页文案并拼接复制成功！', 'success');
                     
                     setTimeout(() => {
-                        window.location.href = 'snssdk1128://';
-                    }, 100);
+                        window.open('snssdk1128://', '_blank');
+                    }, 300);
                 } catch (err) {
                     showStatus('复制失败，请手动复制', 'error');
                 }
